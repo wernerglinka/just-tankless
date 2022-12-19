@@ -1,0 +1,54 @@
+.header-wrapper {
+  position: relative;
+  z-index: 1000;
+  height: 90px;
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    width: 100%;
+    height: var(--header-height);
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 20px 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 1520px) {
+      max-width: 100%;
+      padding: 20px;
+    }
+  }
+}
+
+.is-scrolling .header-wrapper header {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 4px 10px 0px rgba(51,51,51,0.2);
+}
+
+.brand {
+  position: relative;
+  z-index: 3000;
+  width: 300px;
+
+  a {
+    display: block;
+  }
+
+
+}
+
+/* home link on home page */
+[pagename="home"] .brand a {
+  pointer-events: none;
+  cursor: default;
+}

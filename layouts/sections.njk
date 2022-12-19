@@ -1,0 +1,81 @@
+{% extends "layout.njk" %}
+
+{% from "./sections/component.njk" import component %}
+
+{% block body %}
+  <section class="main-content">
+
+{#
+    {% for section in sections %}
+
+      {% set name = section.component %}
+      {% set params = section %}
+
+      <div
+        class="section-wrapper {% if section.inContainer %}inContainer{% endif %}"
+        {% if section.backgroundImage %}
+          style="background-image: url('{{ params.backgroundImage }}');"
+        {% endif %}
+        {% if section.bgColor %}
+          style="background-color: {{ params.bgColor }};"
+        {% endif %}
+        >
+        {{ component(name, params, metadata) }}
+      </div>
+
+    {% else %}
+      <p class="error-message">There are no sections available</p>
+    {% endfor %}
+#}
+
+
+
+    {% for section in sections %}
+      {# build the sections class string #}
+      {% set sectionClasses = "section-wrapper" %}
+      {% if section.inContainer %}
+        {% set sectionClasses = sectionClasses ~ " inContainer" %}
+      {% endif %}
+      {% if section.marginTop %}
+        {% set sectionClasses = sectionClasses ~ " marginTop" %}
+      {% endif %}
+      {% if section.marginBottom %}
+        {% set sectionClasses = sectionClasses ~ " marginBottom" %}
+      {% endif %}
+      {% if section.paddingTop %}
+        {% set sectionClasses = sectionClasses ~ " paddingTop" %}
+      {% endif %}
+      {% if section.paddingBottom %}
+        {% set sectionClasses = sectionClasses ~ " paddingBottom" %}
+      {% endif %}
+
+      {# get the sections id string #}
+      {% if section.containerId %}
+        {% set sectionId = section.containerId %}
+      {% else %}
+        {% set sectionId = "" %}
+      {% endif %}
+
+      {# build the section inline styles string #}
+      {% set sectionStyles = "" %}
+      {% if section.backgroundColor %}
+        {% set sectionStyles = sectionStyles ~ "background-color:" ~ section.backgroundColor ~ ";" %}
+      {% endif %}
+      {% if section.backgroundImage %}
+        {% set sectionStyles = sectionStyles ~ "background-image: url('" ~ section.backgroundImage ~ "');" %}
+      {% endif %}
+
+      {% set name = section.component %}
+      {% set params = section %}
+
+      <section
+        class="{{ sectionClasses }}"
+        {% if sectionId %} id="{{ sectionId }}" {% endif %}
+        {% if sectionStyles %} style="{{ sectionStyles }}" {% endif %}
+      >
+        {{ component(name, params, metadata) }}
+      </section>
+
+    {% endfor %}
+  </section>
+{% endblock %}

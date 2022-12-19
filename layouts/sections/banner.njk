@@ -1,0 +1,12 @@
+{# this section receives props params and site #}
+
+<section class="page-banner">
+  <div class="banner-info">
+    <h1 class="banner-title">{{ params.bannerInfo.title }}</h1>
+
+    <ul>
+      <li class="phoneNumber"><a href="tel:{{ params.bannerInfo.phone1 }}">{{ params.bannerInfo.phone1 | phoneNumber }}</a></li>
+      <li class="phoneNumber"><a href="tel:{{ params.bannerInfo.phone2 }}">{{ params.bannerInfo.phone2 | phoneNumber }}</a></li>
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="379px" height="83px" viewBox="0 0 379 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 0.000000)">
+            <text id="Just-Tankless" font-family="Copperplate-Bold, Copperplate" font-size="50" font-weight="bold" fill="#000000">
+                <tspan x="1" y="38">Just Tankless</tspan>
+            </text>
+            <text id="Water-Heater-Experts" font-family="OpenSans-Regular, Open Sans" font-size="24" font-weight="normal" letter-spacing="6.7" fill="#000000">
+                <tspan x="4" y="76">Water Heater Experts</tspan>
+            </text>
+            <line x1="0.5" y1="50.5" x2="374.5" y2="50.5" id="Line" stroke="#F70505" stroke-width="2" stroke-linecap="square"></line>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,62 @@
+@use "../base/variables" as *;
+/**
+ * Page section Banner
+ */
+
+.page-banner {
+  position: relative;
+  height: var(--small-screen-height);
+  max-width: var(--max-content-width);
+  margin: var(--header-offset) auto 0;
+
+  .banner-info {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 40px;
+    margin: 0 0 40px 0;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+
+    h1 {
+      color: var(--color-white);
+      text-shadow: var(--default-text-shadow);
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        text-decoration: none;
+        display: block;
+        font-weight: bold;
+        font-size: 2.4rem;
+        color: var(--color-white);
+        text-shadow: var(--default-text-shadow);
+        font-size: 3rem;
+        transition: color .3s ease-in-out;
+
+        &:hover {
+          color: var(--color-hover);
+        }
+      }
+    }
+
+    @media (max-width: $medium-screen-width) {
+      ul {
+        a {
+          font-size: 2rem;
+        }
+      }
+    }
+    @media (max-width: $small-screen-width) {
+      ul {
+        flex-direction: column;
+      }
+    }
+  }
+}

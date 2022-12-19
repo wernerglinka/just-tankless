@@ -1,0 +1,21 @@
+// variables
+
+:root {
+  --header-height: 90px;
+  --header-offset: -90px;
+  --small-screen-height: 480px;
+  --small-screen-width: 600px;
+
+  --max-content-width: 1440px;
+  --two-column-width: 1024px;
+  --text-only-width: 700px;
+
+  --color-white: #fff;
+  --color-hover: red;
+
+  --default-text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5)
+}
+
+$small-screen-width: 600px;
+$medium-screen-width: 1024px;
+$default-text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);

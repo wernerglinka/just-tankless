@@ -1,0 +1,10 @@
+{# this section receives props params and site #}
+
+<section class="vendor-list">
+  <ul>
+    {% for vendor in params.vendors %}
+    <li>
+      <a href="{{ vendor.url }}" target="_blank" rel="noreferrer noopener"><img src="{{ vendor.logo }}" alt="{{ vendor.name }}" /></a>
+    </li>
+    {% endfor %}
+</section>

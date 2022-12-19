@@ -1,0 +1,15 @@
+{# this section receives props params and site #}
+
+<section class="section-faqs">
+  <div class="faqs-wrapper">
+    <h2>{{ params.text.title }}</h2>
+    <ul class="faqs-list">
+      {% for faq in metadata.faqs %}
+      <li class="js-faq">
+        <h3>{{ faq.question }}</h3>
+        <div>{{ faq.answer }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

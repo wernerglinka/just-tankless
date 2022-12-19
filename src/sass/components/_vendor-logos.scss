@@ -1,0 +1,16 @@
+.vendor-list {
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+
+    li {
+      flex: 0 0 300px;
+      padding: 20px 40px;
+    }
+  }
+}

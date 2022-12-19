@@ -1,0 +1,43 @@
+/**
+ * Page section Media
+ */
+
+ .section-media {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  &.paddingTop {
+    padding-top: 40px;
+  }
+
+  &.paddingBottom {
+    padding-bottom: 40px;
+  }
+
+  .content {
+    padding: 50px 0;
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+      padding-top: 0;
+    }
+
+    > div {
+      flex: 0 0 50%;
+
+      &.media {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    p {
+      margin: 0 0 20px;
+    }
+  }
+}
