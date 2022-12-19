@@ -1,12 +1,5 @@
 ---
 layout: sections.njk
-
-seo:
-  title: Metalsmith Company Starter
-  description: "A starter to build a company website with Metalsmith"
-  socialImage: "/assets/images/metalsmith-starter-social.png"
-  canonicalOverwrite: ""
-
 sections:
   - component: banner
     disabled: false
