@@ -1,0 +1,23 @@
+[
+  {
+    "rating": 5,
+    "review": "<p>Al helped fix my Noritz Tankless this morning. The heater had been giving me issues over a few days and water was intermittently not getting hot. I called another company and they checked the error codes but couldn't fix the problem..and then yesterday, it just stopped turning on.</p><p>Al was responsive and frank on the phone that he couldn't help me with an intermittent issue given there is no consistent repro. After I called him a second time when hester stopped working, he stopped by and diagnosed the flow sensor to be the issue in no time. He cleaned and everything was working again.</p><p>He also commented on my pump and polyphosphate filter setup and gave tips on how I could flush the heater myself.  You can tell he has a in-depth technical knowledge of this.</p><p>I would highly recommend his services. Thanks.</p>",
+    "name": "Srinivasan R.",
+    "date": "2022-07-01",
+    "location": "CA"
+  },
+  {
+    "rating": 5,
+    "review": "<p>Al fixed my tankless problem within 10 minutes. My 9 year old tankless quit working this morning, no hot water. I contacted the installer but they couldn't come out until Monday. I discovered Just Tankless on Yelp and spoke with Al. He asked a few questions, and although he was busy he said he'd be here in 30 minutes. Amazing! Problem solved! Just Tankless will be my first call from now on!</p>",
+    "name": "Rj J.",
+    "date": "2022-12-17",
+    "location": "San Jose, CA"
+  },
+  {
+    "rating": 5,
+    "review": "<p>Al does excellent work. He has installed two Rinnai tankless water heaters for me. No problems after five years on the first and 3 years on the second. He is also a great contracting resource. Upgraded old tile flooring with tile.</p>",
+    "name": "Stephen P.",
+    "date": "2022-03-31",
+    "location": "San Francisco, CA"
+  }
+]

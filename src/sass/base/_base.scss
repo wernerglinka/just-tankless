@@ -77,8 +77,26 @@ img {
   }
 }
 
-.caption {
-  font-size: 0.8em;
-  font-style: italic;
-  text-align: right;
+.button {
+  display: inline-flex;
+  align-items: center;
+  background: none;
+  text-decoration: none;
+  background: var(--color-primary);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 30px;
+  line-height: 5rem;
+  color: var(--color-white);
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  img {
+    height: 3rem;
+    margin-left: 2rem;
+  }
 }

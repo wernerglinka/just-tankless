@@ -77,7 +77,8 @@ function msBuild() {
       metadata({
         metadata: 'src/content/data',
         'metadata.site': 'src/content/data/site.json',
-        'metadata.faqs': 'src/content/data/faqs.json'
+        'metadata.faqs': 'src/content/data/faqs.json',
+        'metadata.reviews': 'src/content/data/reviews.json',
       })
     )
 

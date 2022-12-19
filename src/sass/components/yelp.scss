@@ -1,0 +1,36 @@
+@use "../base/variables" as *;
+
+.yelp-wrapper {
+  margin: 0 auto;
+  max-width: var(--text-only-width);
+
+  h2 {
+    margin-bottom: 3rem;
+  }
+}
+.yelp-list {
+  list-style: none;
+  margin: 0 0 5rem 0;
+
+  > li {
+    padding: 2rem;
+    margin-bottom: 1rem;
+
+    &:nth-child(odd) {
+      background-color: var(--ratings-background-color);
+    }
+
+    p {
+      font-style: italic;
+
+      &.name,
+      &.date,
+      &.location {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2re;
+        margin: 0;
+      }
+    }
+  }
+}

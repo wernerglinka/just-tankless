@@ -8,7 +8,7 @@
         {% for faq in metadata.faqs %}
         <li class="js-faq">
           <h3>{{ faq.question }}</h3>
-          <div>{{ faq.answer }}</div>
+          <div>{{ faq.answer | safe }}</div>
         </li>
         {% endfor %}
       </ul>

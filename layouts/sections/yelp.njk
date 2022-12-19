@@ -1,0 +1,25 @@
+{# this section receives props params and site #}
+
+<section class="section-yelp">
+  <div class="container">
+    <div class="yelp-wrapper">
+      <h2>{{ params.text.title }}</h2>
+      <ul class="yelp-list">
+        {% for review in metadata.reviews %}
+        <li class="js-yelp">
+          <p class="rating">
+          {% for i in range(0, review.rating) -%}
+            <img src="/assets/images/star.svg" alt="ratings star" class="ratings-star" />
+          {%- endfor %}
+          </p>
+          <p>{{ review.review | safe }}</p>
+          <p class="name">{{ review.name }}</p>
+          <p class="date">{{ review.date }}</p>
+          <p class="location">{{ review.location }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+      <a href={{ params.cta.url }} class="button" target="_blank" rel="noreferrer noopener">Read more reviews on Yelp<img src="/assets/images/yelp.svg" alt="yelp button" /></a>
+    </div>
+  </div>
+</section>

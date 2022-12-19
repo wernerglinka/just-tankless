@@ -76,7 +76,7 @@ sections:
     backgroundColor: "#f5f5f5"
     marginTop: false
     marginBottom: false
-    paddingTop: true
+    paddingTop: false
     paddingBottom: false
     reverse: true
     text:
@@ -101,7 +101,7 @@ sections:
   - component: intro
     disabled: false
     inContainer: true
-    marginTop: true
+    marginTop: false
     marginBottom: false
     paddingTop: true
     paddingBottom: true
@@ -140,4 +140,20 @@ sections:
       title: Frequently Asked Questions
       header: "h2"
       subTitle: ""
+
+  - component: yelp
+    disabled: false
+    inContainer: false
+    marginTop: false
+    marginBottom: false
+    paddingTop: true
+    paddingBottom: true
+    backgroundColor: ""
+    targetId: ""
+    text:
+      title: Our Customer Love Us
+      header: "h2"
+      subTitle: ""
+    cta:
+      url: "https://www.yelp.com/biz/just-tankless-los-gatos#reviews"
 ---

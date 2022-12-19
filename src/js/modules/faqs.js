@@ -9,13 +9,12 @@ const faqs = (function () {
   const init = () => {
     const faqs = document.querySelectorAll('.js-faq');
 
-    console.log(faqs);
-
     if (faqs) {
 
       faqs.forEach(faq => {
         faq.querySelector('h3').addEventListener('click', () => {
           faq.querySelector('div').classList.toggle('open');
+          faq.querySelector('h3').classList.toggle('open');
         });
       });
     }
