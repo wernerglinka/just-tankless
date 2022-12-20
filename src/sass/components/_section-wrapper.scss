@@ -1,7 +1,14 @@
 .section-wrapper {
-  background-position: center;
+  background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media (max-width: 1300px) {
+    background-position: center right -100px;
+  }
+  @media (max-width: 830px) {
+    background-position: center right -140px;
+  }
 
   &.inContainer {
     max-width: 1440px;

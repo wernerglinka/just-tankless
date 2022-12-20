@@ -11,51 +11,92 @@
 
   .banner-info {
     position: absolute;
-    right: 0;
-    bottom: 0;
-    padding: 40px;
-    margin: 0 0 40px 0;
+    left: 20%;
+    bottom: -20px;
+    padding: 0 40px 40px;
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
+    box-shadow: var(--box-shadow);
+
+    @media (max-width: 1300px) {
+      left: 10%;
+    }
+    @media (max-width: 1150px) {
+      left: -20px;
+    }
+    @media (max-width: $tablet-screen-width) {
+      padding: 0 20px 20px;
+      bottom: 20px;
+    }
+    @media (max-width: 500px) {
+      left: 0;
+      right: 0;
+    }
 
     h1 {
       color: var(--color-white);
       text-shadow: var(--default-text-shadow);
-    }
+      margin-bottom: 1rem;
 
-    ul {
-      list-style: none;
-      margin: 0;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-
-      a {
-        text-decoration: none;
-        display: block;
-        font-weight: bold;
-        font-size: 2.4rem;
-        color: var(--color-white);
-        text-shadow: var(--default-text-shadow);
+      @media (max-width: $tablet-screen-width) {
         font-size: 3rem;
-        transition: color .3s ease-in-out;
+      }
+      @media (max-width: $small-screen-width) {
+        color: var(--color-text);
+        text-shadow: none;
+      }
+      @media (max-width: 450px) {
+        padding: 0 0 20px;
+        bottom: 20px;
+      }
+    }
+    .sub-title {
+      font-size: 2.4rem;
+      color: var(--color-white);
+      text-shadow: var(--default-text-shadow);
 
-        &:hover {
-          color: var(--color-hover);
+      @media (max-width: $tablet-screen-width) {
+        font-size: 2rem;
+      }
+      @media (max-width: $small-screen-width) {
+        color: var(--color-text);
+        text-shadow: none;
+      }
+    }
+    .rating {
+      margin: -20px 0 10px;
+
+      img {
+        height: 40px;
+        margin-right: 10px;
+
+        @media (max-width: 450px) {
+          height: 30px;
         }
       }
     }
 
-    @media (max-width: $medium-screen-width) {
-      ul {
-        a {
-          font-size: 2rem;
-        }
+    .phone-number {
+      text-decoration: none;
+      display: block;
+      margin-bottom: 40px;
+      font-weight: bold;
+      font-size: 2.4rem;
+      color: var(--color-white);
+      text-shadow: var(--default-text-shadow);
+      font-size: 3rem;
+      transition: color .3s ease-in-out;
+
+      @media (max-width: $tablet-screen-width) {
+        font-size: 2rem;
       }
-    }
-    @media (max-width: $small-screen-width) {
-      ul {
-        flex-direction: column;
+      @media (max-width: $small-screen-width) {
+        color: var(--color-text);
+        text-shadow: none;
+      }
+
+      &:hover {
+        color: var(--color-hover);
       }
     }
   }

@@ -2,11 +2,15 @@
 
 <section class="page-banner">
   <div class="banner-info">
+    <p class="rating">
+      {% set rating = 5  %}
+      {% for i in range(0, rating) -%}
+        <img src="/assets/images/star-filled.svg" alt="ratings star" class="ratings-star" />
+      {%- endfor %}
+    </p>
     <h1 class="banner-title">{{ params.bannerInfo.title }}</h1>
-
-    <ul>
-      <li class="phoneNumber"><a href="tel:{{ params.bannerInfo.phone1 }}">{{ params.bannerInfo.phone1 | phoneNumber }}</a></li>
-      <li class="phoneNumber"><a href="tel:{{ params.bannerInfo.phone2 }}">{{ params.bannerInfo.phone2 | phoneNumber }}</a></li>
-    </ul>
+    <p class="sub-title">{{ params.bannerInfo.subTitle }}</p>
+    <a class="phone-number" href="tel:{{ params.bannerInfo.phone }}">{{ params.bannerInfo.phone | phoneNumber }}</a>
+    <a class="button" href="{{ params.bannerInfo.yelpLink }}">{{ params.bannerInfo.yelpText }}<img src="/assets/images/yelp.svg" alt="yelp button" /></a>
   </div>
 </section>

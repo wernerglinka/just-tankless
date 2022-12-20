@@ -7,14 +7,17 @@ sections:
     marginTop: false
     marginBottom: false
     paddingTop: false
-    paddingBottom: true
+    paddingBottom: false
     backgroundColor: ""
     targetId: ""
     bannerInfo:
-      title: Tankless - Solar - Radiant Heating
-      phone1: "4083573280"
-      phone2: "9257590000"
-    backgroundImage: /assets/images/banner-final.jpg
+      title: Tankless Water Heating
+      subTitle: Tankless - Solar - Radiant
+      phone: "4083573280"
+      yelpLink: "https://www.yelp.com/biz/just-tankless-los-gatos#reviews"
+      yelpText: "Read our reviews"
+      email: "info@justTankless.com"
+    backgroundImage: /assets/images/banner-final2.jpg
     logo: /assets/images/just-tankless-logo.njk
     
   - component: intro
