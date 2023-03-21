@@ -35,9 +35,9 @@ sections:
       subTitle: ""
       twoCol: false
       prose: |-
-        Just Tankless offers all Bosch Pro Series, Navien, Noritz, Takagi, and Rinnai Tankless Water Heaters at the Best Prices. We are certified by all major tankless water heater brands and provide hydronic systems. We specialize in Eichler homes with in-floor Hydronics and offer a new state-of-the-art solution; please get in touch with us for more information.
-
-        **We offer expert Tankless Water Heating and Hydronic Solutions in the San Francisco Bay Area for all major Brands.**
+        At Just Tankless, we specialize in providing the most reliable and efficient tankless water heaters available on the market. Just Tankless offers all Bosch Pro Series, Navien, Noritz, Takagi, and Rinnai Tankless Water Heaters at the Best Prices. We are certified by all major tankless water heater brands and provide hydronic systems. We specialize in Eichler homes with in-floor Hydronics and offer a new state-of-the-art solution.
+        
+        **Please call (408) 357-3280 for more information.**
     hasCtas: false
     ctas:
       - url: ""
@@ -117,10 +117,22 @@ sections:
       twoCol: false
       prose: |-
 
-        - **Energy efficiency**: Tankless water heaters are generally more energy efficient than storage tank water heaters because they only heat water as needed, rather than constantly heating and reheating a large tank of water. This can result in significant energy savings over time.
-        - **Compact size**: Tankless water heaters are generally more compact than storage tank water heaters, which can be an advantage in homes with limited space.
-        - **Unlimited hot water**: Tankless water heaters are capable of providing an unlimited supply of hot water on demand, as long as the unit is properly sized for the hot water needs of the household. This can be a significant advantage in homes with high hot water demand or multiple hot water taps in use simultaneously.
-        - **Longer lifespan**: Tankless water heaters typically have a longer lifespan than storage tank water heaters, as they do not suffer from the same wear and tear from constantly heating and reheating water in the tank.
+        ## What is a Tankless Water Heater?
+    
+        As the name suggests, a tankless water heater does not have a storage tank like a traditional water heater. Instead, it heats water on demand as it flows through the unit. This means that it only heats the water you need when needed, resulting in significant energy savings compared to a traditional tank model.
+
+        ## Advantages of a Tankless Water Heater
+        
+        There are several advantages to choosing a tankless water heater over a traditional tank model:
+
+        - **Energy Efficiency**: Tankless water heaters are highly efficient because they only heat the water you need. This means that they use less energy overall, resulting in lower utility bills.
+        - **Space Savings**: Tankless water heaters are much smaller than traditional tank models, so they take up less space in your home.
+        - **Longer Lifespan**: Tankless water heaters typically last longer than traditional tank models, with a lifespan of up to 20 years or more.
+        - **Consistent Hot Water**: With a tankless water heater, you'll never run out of hot water. The unit heats water on demand, so you'll always have a steady supply of hot water whenever you need it.
+        - **Cleaner Water**: Tankless water heaters don't store water in a tank, which means there's less chance of bacteria or other contaminants building up in the unit.
+
+        **If you're interested in installing a tankless water heater, it's important to have a professional handle the installation process. At Just Tankless, our team of experts can help you choose the right unit for your home and ensure it's installed correctly.**
+
       
     hasCtas: false
     ctas:
