@@ -27,6 +27,9 @@
       max-width: 100%;
       padding: 10px 20px;
     }
+    @media (max-width: 600px) {
+      flex-direction: column;
+     }
   }
 }
 
@@ -40,11 +43,32 @@
   z-index: 3000;
   width: 300px;
 
+  @media (max-width: 600px) {
+   width: 200px;
+  }
+
   a {
     display: block;
   }
+}
 
+.tel-number {
+  font-size: 3rem;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 
+  @media (max-width: 600px) {
+    font-size: 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--color-primary);
+  }
+}
+
+.is-scrolling .tel-number {
+  opacity: 1;
 }
 
 /* home link on home page */
