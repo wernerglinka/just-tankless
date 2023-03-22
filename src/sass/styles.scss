@@ -4,10 +4,9 @@
 @use "./base/base";
 @use "./base/typography";
 
-@use "./components/transitions";
+
 @use "./components/header";
 @use "./components/footer";
-@use "./components/main-menu";
 @use "./components/section-wrapper";
 @use "./components/banner";
 @use "./components/intro";
@@ -15,8 +14,6 @@
 @use "./components/responsive-image";
 @use "./components/ctas";
 @use "./components/to-top";
-@use "./components/blog";
-@use "./components/gitter-invite";
 @use "./components/vendor-logos";
 @use "./components/faqs";
 @use "./components/yelp";
