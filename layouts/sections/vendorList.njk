@@ -1,5 +1,6 @@
 {# this section receives props params and site #}
 
+{#
 <section class="vendor-list">
   <ul>
     {% for vendor in params.vendors %}
@@ -8,3 +9,29 @@
     </li>
     {% endfor %}
 </section>
+#}
+
+{# we need two copies so the auto scroll works properly #}
+{% set copies = 2 %}
+
+{% set logoWidth = params.logoWidth %}
+{% set logosListLength = params.vendors | length  *  logoWidth ~ "px" %}
+
+<div class="vendor-list">
+  <div class="marquee" style="--list-width: {{ logosListLength }}">
+    <div class="logos-wrapper">
+
+      {% for i in range(0, copies) -%}
+      <ul class="logos js-logos-list">
+      {% for vendor in params.vendors %}
+        <li>
+          <a href="{{ vendor.url }}" target="_blank" rel="nofollow noopener">
+            <img src="{{ vendor.logo }}" alt="{{ vendor.name }}" />
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+      {% endfor %}
+    </div> <!-- marquee-inner -->
+  </div> <!-- marquee -->
+</div>

@@ -20,12 +20,39 @@ sections:
     backgroundImage: /assets/images/banner-final2.jpg
     logo: /assets/images/just-tankless-logo.njk
     
-  - component: intro
+  - component: vendorList
     disabled: false
     inContainer: true
     marginTop: false
     marginBottom: false
     paddingTop: true
+    paddingBottom: true
+    backgroundColor: ""
+    targetId: ""
+    logoWidth: "200"
+    vendors:
+      - name: Bosch
+        logo: /assets/images/bosch-logo.svg
+        url: https://www.bosch-thermotechnology.com/us/en/products/tankless-water-heaters/
+      - name: Navien
+        logo: /assets/images/navien-logo.svg
+        url: https://www.navien.com/us/tankless-water-heaters/
+      - name: Noritz
+        logo: /assets/images/noritz-logo.svg
+        url: https://www.noritz.com/tankless-water-heaters/
+      - name: Takagi
+        logo: /assets/images/takagi-logo.svg
+        url: https://www.takagi.com/tankless-water-heaters/
+      - name: Rinnai
+        logo: /assets/images/rinnai-logo.svg
+        url: https://www.rinnai.us/products/tankless-water-heaters/
+
+  - component: intro
+    disabled: false
+    inContainer: true
+    marginTop: false
+    marginBottom: false
+    paddingTop: false
     paddingBottom: true
     backgroundColor: ""
     targetId: ""
@@ -46,33 +73,6 @@ sections:
         isButton: true
         buttonStyle: "primary"
   
-  - component: vendorList
-    disabled: false
-    inContainer: true
-    marginTop: false
-    marginBottom: false
-    paddingTop: false
-    paddingBottom: true
-    backgroundColor: ""
-    targetId: ""
-    vendors:
-      - name: Bosch
-        logo: /assets/images/bosch-logo.svg
-        url: https://www.bosch-thermotechnology.com/us/en/products/tankless-water-heaters/
-      - name: Navien
-        logo: /assets/images/navien-logo.svg
-        url: https://www.navien.com/us/tankless-water-heaters/
-      - name: Noritz
-        logo: /assets/images/noritz-logo.svg
-        url: https://www.noritz.com/tankless-water-heaters/
-      - name: Takagi
-        logo: /assets/images/takagi-logo.svg
-        url: https://www.takagi.com/tankless-water-heaters/
-      - name: Rinnai
-        logo: /assets/images/rinnai-logo.svg
-        url: https://www.rinnai.us/products/tankless-water-heaters/
-      
-
   - component: media
     disabled: false
     inContainer: false
