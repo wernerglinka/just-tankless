@@ -79,12 +79,35 @@
     .phone-number {
       text-decoration: none;
       display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 2.4rem;
+      color: var(--color-white);
+      text-shadow: var(--default-text-shadow);
+
+      transition: color .3s ease-in-out;
+
+      @media (max-width: $tablet-screen-width) {
+        font-size: 2rem;
+      }
+      @media (max-width: $small-screen-width) {
+        color: var(--color-text);
+        text-shadow: none;
+      }
+
+      &:hover {
+        color: var(--color-hover);
+      }
+    }
+
+    .email-address {
+      text-decoration: none;
+      display: block;
       margin-bottom: 40px;
       font-weight: bold;
       font-size: 2.4rem;
       color: var(--color-white);
       text-shadow: var(--default-text-shadow);
-      font-size: 3rem;
       transition: color .3s ease-in-out;
 
       @media (max-width: $tablet-screen-width) {

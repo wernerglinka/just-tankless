@@ -12,7 +12,7 @@ sections:
     targetId: ""
     bannerInfo:
       title: Tankless Water Heating
-      subTitle: Tankless - Solar - Radiant
+      subTitle: Sales - Service - installation
       phone: "4083573280"
       yelpLink: "https://www.yelp.com/biz/just-tankless-los-gatos#reviews"
       yelpText: "Read our reviews"
