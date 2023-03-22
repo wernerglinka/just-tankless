@@ -4,6 +4,6 @@
   </a>
 </p>
 <h1 align="center">
-  Company Website for just Tankless Water Heaters
+  Company Website for Just Tankless Water Heaters
 </h1>
 
