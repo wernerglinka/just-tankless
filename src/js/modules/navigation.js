@@ -37,7 +37,7 @@ const navigation = (function () {
       } else {
         document.body.classList.add('is-scrolling');
       }
-    });
+    }, { threshold: [1.0] });
     scrollObserver.observe(header);
   };
 
