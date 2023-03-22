@@ -111,7 +111,7 @@ sections:
     backgroundColor: ""
     targetId: ""
     text:
-      title: Tankless Water Heater Benefits
+      title: ""
       header: "h2"
       subTitle: ""
       twoCol: false
