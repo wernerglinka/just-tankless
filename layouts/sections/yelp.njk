@@ -9,7 +9,7 @@
         <li class="js-yelp">
           <p class="rating">
           {% for i in range(0, review.rating) -%}
-            <img src="/assets/images/star.svg" alt="ratings star" class="ratings-star" />
+            <img src="/assets/images/star-filled.svg" alt="ratings star" class="ratings-star" />
           {%- endfor %}
           </p>
           <p>{{ review.review | safe }}</p>
