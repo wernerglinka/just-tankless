@@ -94,6 +94,12 @@ function msBuild() {
         destination: 'assets/'
       })
     )
+    .use(
+      assets({
+        source: 'src/assets/googledb28c4ef9e1d27cf.html',
+        destination: 'googledb28c4ef9e1d27cf.html'
+      })
+    )
 
     .use(
       sass({

@@ -35,19 +35,19 @@ sections:
     vendors:
       - name: Bosch
         logo: /assets/images/bosch-logo.svg
-        url: https://www.bosch-thermotechnology.com/us/en/products/tankless-water-heaters/
+        url: https://www.bosch-thermotechnology.com/corporate/en/startpage.html
       - name: Navien
         logo: /assets/images/navien-logo.svg
-        url: https://www.navien.com/us/tankless-water-heaters/
+        url: https://www.navieninc.com/
       - name: Noritz
         logo: /assets/images/noritz-logo.svg
-        url: https://www.noritz.com/tankless-water-heaters/
+        url: https://www.noritz.com/
       - name: Takagi
         logo: /assets/images/takagi-logo.svg
-        url: https://www.takagi.com/tankless-water-heaters/
+        url: https://www.takagi.com/
       - name: Rinnai
         logo: /assets/images/rinnai-logo.svg
-        url: https://www.rinnai.us/products/tankless-water-heaters/
+        url: https://www.rinnai.us/
 
   - component: intro
     disabled: false
