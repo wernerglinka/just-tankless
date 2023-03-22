@@ -45,7 +45,7 @@
         color: var(--color-text);
         text-shadow: none;
       }
-      @media (max-width: 450px) {
+      @media (max-width: $very-small-screen-width) {
         padding: 0 0 20px;
         bottom: 20px;
       }
@@ -61,6 +61,9 @@
       @media (max-width: $small-screen-width) {
         color: var(--color-text);
         text-shadow: none;
+      }
+      @media (max-width: $very-small-screen-width) {
+        font-size: 1.8rem;
       }
     }
     .rating {

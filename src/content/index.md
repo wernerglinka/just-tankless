@@ -4,6 +4,7 @@ sections:
   - component: banner
     disabled: false
     inContainer: true
+    containerClass: ""
     marginTop: false
     marginBottom: false
     paddingTop: false
@@ -23,6 +24,7 @@ sections:
   - component: vendorList
     disabled: false
     inContainer: true
+    containerClass: "no-horizontal-padding"
     marginTop: false
     marginBottom: false
     paddingTop: true
@@ -50,6 +52,7 @@ sections:
   - component: intro
     disabled: false
     inContainer: true
+    containerClass: ""
     marginTop: false
     marginBottom: false
     paddingTop: false
@@ -76,6 +79,7 @@ sections:
   - component: media
     disabled: false
     inContainer: false
+    containerClass: ""
     backgroundColor: "#f5f5f5"
     marginTop: false
     marginBottom: false
@@ -104,6 +108,7 @@ sections:
   - component: intro
     disabled: false
     inContainer: true
+    containerClass: ""
     marginTop: false
     marginBottom: false
     paddingTop: true
@@ -145,6 +150,7 @@ sections:
   - component: faqs
     disabled: false
     inContainer: false
+    containerClass: ""
     marginTop: false
     marginBottom: false
     paddingTop: true
@@ -159,6 +165,7 @@ sections:
   - component: yelp
     disabled: false
     inContainer: false
+    containerClass: ""
     marginTop: false
     marginBottom: false
     paddingTop: true

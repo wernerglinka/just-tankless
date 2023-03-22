@@ -21,6 +21,13 @@
     @media (max-width: 500px) {
       padding: 0 20px;
     }
+
+    &.no-horizontal-padding {
+      @media (max-width: 1520px) {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
   }
 
   &.marginTop {

@@ -33,6 +33,9 @@
     {% for section in sections %}
       {# build the sections class string #}
       {% set sectionClasses = "section-wrapper" %}
+      {% if section.containerClass %}
+        {% set sectionClasses = sectionClasses ~ " " ~ section.containerClass %}
+      {% endif %}
       {% if section.inContainer %}
         {% set sectionClasses = sectionClasses ~ " inContainer" %}
       {% endif %}
