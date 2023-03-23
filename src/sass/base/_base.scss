@@ -59,21 +59,12 @@ img {
     justify-content: center;
 
     @media (max-width: 767px) {
-      padding: 0;
+      padding: 20px;
     }
   }
 
   &.reverse {
     flex-direction: row-reverse;
-
-    .prose {
-      padding-right: 0;
-      padding-left: 50px;
-
-      @media (max-width: 767px) {
-        padding: 0;
-      }
-    }
   }
 }
 
