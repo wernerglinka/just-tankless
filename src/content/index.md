@@ -60,14 +60,16 @@ sections:
     backgroundColor: ""
     targetId: ""
     text:
-      title: We at Just Tankless are experts in Tankless Water Heaters.
+      title: Why Just Tankless?
       header: "h2"
       subTitle: ""
       twoCol: false
       prose: |-
-        At Just Tankless, we specialize in providing the most reliable and efficient tankless water heaters available on the market. Just Tankless offers all Bosch Pro Series, Navien, Noritz, Takagi, and Rinnai Tankless Water Heaters at the Best Prices. We are certified by all major tankless water heater brands and provide hydronic systems. We specialize in Eichler homes with in-floor Hydronics and offer a new state-of-the-art solution.
-        
-        **Please call (408) 357-3280 for more information.**
+        Just Tankless is a company specializing in selling, servicing, repairing, and installing tankless water heaters for almost 20 years. We are the only company in the San Francisco Bay Area focusing solely on tankless water heaters, unlike other plumbing companies offering a more comprehensive range of services.
+
+        Our team is trained, certified, and recommended by all major tankless water heater manufacturers, including Bosch, Navien, Noritz, Rinnai, Takagi, and Bradford & White. We pride ourselves on our expertise and long experience in this field.
+
+        At Just Tankless, we hold both General Building and Electrical licenses, allowing us to provide one-stop service for all tankless water heater installations requiring electrical and general building licenses. This saves our customers money by not having to hire other contractors. In addition, we are in excellent standing with the California State Licensing Board, and you can check our licenses on [their website](https://www.cslb.ca.gov/onlineservices/checklicenseII/LicenseDetail.aspx?LicNum=872445).
     hasCtas: false
     ctas:
       - url: ""

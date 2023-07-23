@@ -1,10 +1,30 @@
 [
   {
-    "question": "Is Tankless Water Heater something new?",
+    "question": "Is a tankless water heater something new?",
     "answer": "<p>No, Tankless Water Heaters have been around for decades in other parts of the world, mainly in Europe and Asia.</p>"
   },
   {
-    "question": "Are there any Tax Credits or Rebates for Tankless Water Heaters?",
+    "question": "What is a condensing tankless water heater?",
+    "answer": "<p>A condensing tankless water heater is a type of tankless water heater that is designed to be more energy-efficient, typically around 95% efficient, compared to non-condensing models that are approximately 80% efficient. These water heaters utilize a secondary heat exchanger to extract heat from the exhaust gases produced during the combustion process. This captured heat is then used to preheat the water as it flows through the primary heat exchanger, resulting in increased energy efficiency and cost savings.</p>"
+  },
+  {
+    "question": "Which is the best tankless water heater brand?",
+    "answer": "<p>The best brand and model of tankless water heater for your needs will depend on the capacity, type (condensing vs. non-condensing), installation location, and desired features (recirculation, WiFi, etc.). At Just Tankless, we are not tied to one manufacturer like other plumbing companies and represent all major brands. This allows us to recommend the best brand and model for your specific needs, and we want to ensure that our customers have many years of trouble-free operation.</p><p>Each brand has its unique advantages. For example, we recommend the Takagi brand for outdoor installations with few features. On the other hand, for high-capacity, high-efficiency units with hot water recirculation and optional WiFi, we like Navien and Rinnai brands. Their top-of-the-line units feature stainless steel heat exchangers instead of copper, which is more durable and requires less service in areas with hard water containing many minerals.</p><p>We also recommend the Noritz and Bosch tankless water heaters, which have excellent models. All manufacturers offer lower-priced models, which could serve well depending on the application.</p><p>At Just Tankless, we offer our expertise and long experience free of charge to help you make the best decision for your needs.</p>"
+  },
+  {
+    "question": "What brands does Just Tankless offer?",
+    "answer": "<p>Our company stands out from others in that we offer all major brands of tankless water heaters, including Bosch, Navien, Noritz, Takagi, Bradford & White, Rinnai, and more. We also keep a large inventory of tankless water heaters for various applications.</p><p>Moreover, we carry numerous replacement parts and can provide same-day service, unlike other companies that require ordering the parts, leaving the customer without hot water for several days.</p><p>Although Quietside and Eternal Hybrid water heaters are no longer available in the US, we can still service them and have some parts available.</p>"
+  },
+  {
+    "question": "Which models of tankless water heaters do you carry?",
+    "answer": "<p>We stock all the latest models from Navien, including the NPE-240A2, NPE-210A2, NPE-180A2, and the NPN series. For Bosch, we carry the Greentherm 9000 Series and the non-condensing Therm Series. Our selection of Rinnai includes the Sensi Series, RSC199iN, RUR199iN, RU199iN, and non-condensing RE Series, all available in Natural Gas or Liquid Propane configurations. We also stock Takagi's T-K110, T-K310, and T-K510 non-condensing units and their T-H3 condensing units. Finally, for Noritz, we carry the NRCB199, NRCR111, NR98, NRC98, and many other models.</p><p>We offer indoor and outdoor models in Natural Gas or Liquid Propane configurations. Contact us to help you choose your application's best brand and model.</p><p>Additionally, we carry hybrid water heaters such as the Rinnai Demand Duo Series (CHS 13080H) and Noritz Hot Series (NHH199100-1-NG), which are ideal for commercial properties such as restaurants and hair salons, as well as apartment buildings.</p>"
+  },
+  {
+    "question": "Which communities do you serve?",
+    "answer": "<p>We provide Servie, Repair, Replacement and Installation in the greater San Francisco Bay Area cities of Alameda, Alamo, Albany, Antioch, Atherton,Bay Point, Belmont, Belvedere, Benicia, Berkeley, Brentwood, Brisbane, Burlingame, Byron, Campbell, Castro Valley, Clayton, Colma, Concord, Contra Costa County, Corte Madera, Cupertino, Daly City, Danville, Dublin, East Palo Alto, El Cerrito, El Granada, Emeryville, Fairfax, Fairfield, Foster City, Fremont, Greenbrae, Halfmoon Bay, Hayward, Hercules, Hillsborough, Kensington, Kentfield, Lafayette, Larkspur, Livermore, Los Altos, Los Altos Hills, Los Gatos, Marin County, Martinez, Menlo Park, Mill Valley, Millbrae, Miliptas, Monte Sereno, Moraga, Morgan Hill, Mountain View, Newark, Novato, Oakland, Oakley, Orinda, Pacifica, Palo Alto, Piedmont, Pinole, Pittsburg, Pleasant Hill, Pleasanton, Portola Valley, Redwood City, Richmond, Rodeo, San Anselmo, San Bruno, San Carlos, San Francisco, San Jose, San Leandro, San Lorenzo, San Mateo, San Pablo, San Rafael, San Ramon, Santa Clara, Saratoga, Sausalito, South San Francisco, Stanford, Sunnyvale, Tiberon, Union City, Vallejo, Walnut Creek, and Woodside.</p>"
+  },
+  {
+    "question": "Are there any tax credits or rebates for tankless water heaters?",
     "answer": "<p>Yes, click  <a href='https://www.energystar.gov/about/federal_tax_credits/tax_credits_homeowners/water_heaters_natural_gas_oil_propane' target='_blank' rel='noopener noreferrer'>here</a> for more information.</p>"
   },
   {
@@ -12,7 +32,7 @@
     "answer": "<p>No, in some cases, you may get hot water sooner to your shower head or faucet than before because of the new location of the water heater being closer to the point of use. A smart-reticulating system design can give instant hot water at any faucet or shower head. We’ll be glad to share more information with you.</p>"
   },
   {
-    "question": "Where is the Tankless Water Heater installed?",
+    "question": "Where is the tankless water heater installed?",
     "answer": "<p>The location of installation is significant for trouble-free operation. All crucial factors are adequate venting, oxygen, plumbing, and sufficient gas supply. Our experienced personnel will gladly discuss all available options with you.</p>"
   },
   {
@@ -24,19 +44,27 @@
     "answer": "<p>Expert installation is critical to safety, trouble-free operation, and manufacturer’s warranty. As with any potentially dangerous situation, it is best to use a licensed and factory-trained plumber, gas fitter, and electrician. Besides voiding the manufacturer’s warranty use of unqualified persons can be dangerous when handling gas, water, and electricity.</p>"
   },
   {
-    "question": "Is there any Permit needed to install a Tankless Water Heater?",
+    "question": "Is there any permit needed to install a tankless water heater?",
     "answer": "<p>Yes, there is a permit needed from the local building department. We will gladly start the permit application process, ONLY charging you the Permit Fee with NO markup! We will send the completed Permit to your Home; you can call the Permit department for inspection after finishing work.</p>"
   },
   {
-    "question": "Fluctuating Water Temperatue at the Shower?",
+    "question": "Fluctuating water temperature at the shower?",
     "answer": "<p>When experiencing fluctuating water temperature in your shower, it is often not the fault of the tankless heater but rather the shower fixture. Many of the German brands Grohe and Hansgrohe fixtures cause the problem. They have a built-in thermostatic valve that tries to control the water temperature at the institution and limit the max temperature. It then oscillates between lukewarm and hot as its thermostatic valve opens and closes. There is an internal adjustment to raise the temperature setting, but these fixtures are over-engineered and trouble some besides being expensive.</p><p>They may work well in Germany as many towns have central water heating. Yes, central water heating! You get hot water delivered just like cold water; the hot water is often boiling. There are two water meters, one for hot and one for cold. The hot water is generated by garbage incinerators, cooling water from nuclear power plants, etc., and pumped throughout the town. Each home or building has a heat exchanger to extract the heat.</p>"
   },
   {
-    "question": "Why not buy a Tankless Water Heater from Amazon, Ebay, Home Depot or other Warehouses?",
+    "question": "Why not buy a tankless water heater from Amazon, Ebay, Home Depot or other warehouses?",
     "answer": "<p>We recommend local plumbing companies who are experienced and are at hand when you need service. Having to wait on service for hot water can be very frustrating. Using local plumbers also helps your community by supporting local businesses.</p><p>Amazon and others have started selling services online for referral; they demand about 20% of the total cost. That is steep and something the local plumber has to make up for it in other ways with the customer, and not always in a transparent manner.</p><p>If something goes wrong, the customer is caught between the seller (i.e., Amazon) and the installer (plumber), each pointing to the other for being responsible.</p><p>Similarly, this is the case buying from Home Depot, Lowe's, or other large stores. They subcontract the installation through a referral with steep referral fees from the installation company.</p><p>Some retailers even use out-of-state companies to install, and when the time comes for service, they need to be more responsive.</p><p>Our price checks have shown no price advantage compared to the local company selling and installing the tankless unit. Oversized boxes and online referred installation companies tend to be more expensive because the installation company has to make up for the hefty referral fees.</p><p>Additionally, Tankless Water Heater Manufactures require an installation by a certified installation company for the tankless water heater to be warranted.</p>"
   },
   {
-    "question": "What is hot water recirculation?",
-    "answer": "<p>Hot water recirculation is a system that helps to deliver hot water to the faucets and fixtures in a building more quickly and efficiently. It works by circulating hot water from the water heater back through the pipes and into the fixtures, rather than letting the water cool off in the pipes before it is used. This can save energy and reduce water waste, as it reduces the need to run the tap for a long time to get hot water.</p><p>There are several types of hot water recirculation systems, including:</p><ul><li>Dedicated return line systems: These systems have a separate pipe that carries the cooled-off water back to the water heater to be reheated.</li><li>Pump-assisted systems: These systems use a pump to circulate the hot water through the pipes.</li><li>Demand-controlled systems: These systems use sensors to determine when hot water is needed and only circulate the water when it is needed.</li></ul><p>Hot water recirculation systems can be installed in both residential and commercial buildings. They are typically more efficient and convenient than traditional hot water delivery systems and can help to save energy and water.</p><p>Here are a couple of links to videos about hot water recirculation systems:</p><ul><li><a href='https://www.navieninc.com/media/videos#videos-13' target='_blank' rel='noreferrer noopener'>https://www.navieninc.com/media/videos#videos-13</a></li><li><a href='https://www.navieninc.com/media/videos#videos-1' target='_blank' rel='nofollow noreferrer'>https://www.navieninc.com/media/videos#videos-1</a></li></ul>"
+    "question": "How does hot water recirculation work?",
+    "answer": "<p>There are two ways to implement hot water recirculation: a dedicated recirculation line (not present in most homes) or a crossover valve. Recirculation helps save water and offers the convenience of instant hot water without the need to wait and wastewater. Modern tankless water heaters are designed to modulate gas usage based on the volume of water used at any given moment. Recirculation uses minimal gas due to the small volume and low water flow, resulting in minimal energy consumption. Additionally, new units utilize machine learning and AI for recirculation.</p><p>Please watch <a href='https://youtu.be/UC90tKbBgOg' target='_blank' rel='noopener noreferrer'>this short video</a> for more detail.</p>"
+  },
+  {
+    "question": "Do you carry heat pump water heaters?",
+    "answer": "<p>Heat pump water heaters are a <a href='https://www.eco2waterheater.com/' target='_blank' rel='noopener noreferrer'>relatively new technology</a> in our area and are an excellent choice for high efficiency. As more and more cities move towards electrification strategies, many are looking to move away from natural gas. At our company, we offer all major heat pump water heaters brands, including Rheem, AO Smith, and Sanco. Our technicians are trained and certified to provide installation and maintenance services for these systems.</p>"
+  },
+  {
+    "question": "Do you carry Hydronic heaters for space heating and floor heating?",
+    "answer": "<p>We have expertise in hydronic heating and provide solutions for combined domestic water heating and space heating. Our specialization includes Eichler Homes and similar properties with in-floor, baseboard or radiator heating. Our Combi Boiler solutions are 95% efficient and can significantly reduce heating costs.</p><p>In addition, we offer high-capacity, high-efficiency boilers suitable for commercial and apartment applications.</p><p>The latest tankless boilers are designed to be long-lasting with high efficiency, such as the Noritz NRCB180 and NRCB199, Navien NCB 190/60 and NCB190/80, and Rinnai M Series M160CN.</p>"
   }
 ]
