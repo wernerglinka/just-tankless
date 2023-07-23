@@ -22,12 +22,13 @@
     <div class="logos-wrapper">
 
       {% for i in range(0, copies) -%}
-      <ul class="logos js-logos-list">
+      <ul class="logos js-logos-list" itemscope itemtype="https://schema.org/TanklessModelList">
       {% for vendor in params.vendors %}
-        <li>
-          <a href="{{ vendor.url }}" target="_blank" rel="nofollow noopener">
-            <img src="{{ vendor.logo }}" alt="{{ vendor.name }}" />
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="{{ vendor.url }}" target="_blank" rel="nofollow noopener" itemprop="item">
+            <img src="{{ vendor.logo }}" alt="{{ vendor.name }}" title="{{ vendor.name }}" itemprop="name"/>
           </a>
+          <meta itemprop="position" content="{{ loop.index }}" />
         </li>
       {% endfor %}
       </ul>
