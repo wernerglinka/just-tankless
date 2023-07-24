@@ -69,7 +69,7 @@ sections:
 
         Our team is trained, certified, and recommended by all major tankless water heater manufacturers, including Bosch, Navien, Noritz, Rinnai, Takagi, and Bradford & White. We pride ourselves on our expertise and long experience in this field.
 
-        At Just Tankless, we hold both General Building and Electrical licenses, allowing us to provide one-stop service for all tankless water heater installations requiring electrical and general building licenses. This saves our customers money by not having to hire other contractors. In addition, we are in excellent standing with the California State Licensing Board, and you can check our licenses on [their website](https://www.cslb.ca.gov/onlineservices/checklicenseII/LicenseDetail.aspx?LicNum=872445).
+        At Just Tankless, in addition to a Plumbing license, we also hold both General Building and Electrical licenses, allowing us to provide a one-stop service for all tankless water heater installations requiring plumbing, electrical, and general building licenses. This saves our customers money by not having to hire other contractors. In addition, we are in excellent standing with the California State Licensing Board, and you can check our licenses on [their website](https://www.cslb.ca.gov/onlineservices/checklicenseII/LicenseDetail.aspx?LicNum=872445).
     hasCtas: false
     ctas:
       - url: ""
